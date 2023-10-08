@@ -1,28 +1,28 @@
-import turtle as t
+import turtle
 def ractangle(color):
-    t.begin_fill()
-    t.fillcolor(color)
+    turtle.begin_fill()
+    turtle.fillcolor(color)
     for i in range(2):
-        t.forward(300)
-        t.right(90)
-        t.forward(200)
-        t.right(90)
-    t.end_fill()
+        turtle.forward(300)
+        turtle.right(90)
+        turtle.forward(200)
+        turtle.right(90)
+    turtle.end_fill()
 def circle(color):
-    t.begin_fill()
-    t.fillcolor(color)
-    t.circle(-70)
-    t.end_fill()
+    turtle.begin_fill()
+    turtle.fillcolor(color)
+    turtle.circle(-70)
+    turtle.end_fill()
 
-t.up()
-t.goto(0, -200)
-t.down()
-t.goto(0, 200)
+turtle.up()
+turtle.goto(0, -200)
+turtle.down()
+turtle.goto(0, 200)
 ractangle('green')
 
-t.goto(0,170)
-t.color('green')
-t.forward(150)
+turtle.goto(0,170)
+turtle.color('green')
+turtle.forward(150)
 circle('red')
 
-t.exitonclick()
+turtle.exitonclick()
