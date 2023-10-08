@@ -24,3 +24,5 @@ t.goto(0,170)
 t.color('green')
 t.forward(150)
 circle('red')
+
+t.exitonclick()
